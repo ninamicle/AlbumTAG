@@ -1,10 +1,13 @@
-import React, {Component} from 'react';
+import React from 'react';
+import LoginForm from './LoginForm';
+import './LoginForm.css'
 
-
-class LandingPage extends Component {
+class LandingPage extends React.Component {
     render() {
         return(
-            <div><h1>Landing Page</h1></div>
+            <div>
+            <LoginForm />
+            </div>
         )
     }
 } export default LandingPage
